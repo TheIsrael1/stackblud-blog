@@ -86,7 +86,7 @@ const DashboardMain = ({ initialBlogs }: IDashboardMain) => {
         {posts?.pages?.map((page, idx) => (
           <React.Fragment key={`page-${idx + 1}`}>
             {page?.map((i, id) => (
-              <BlogCard className="group">
+              <BlogCard key={id} className="group">
                 <BlogCard.Banner id={id}>
                   <div className="absolute top-0 right-0 flex flex-col gap-2">
                     <Dialog>
