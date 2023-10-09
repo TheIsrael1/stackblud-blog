@@ -4,6 +4,7 @@
 - React Query for data fetching
 - CRUD Admin functionality
 - Homepage search functionality
+- Comment functionality on single post page
 - Component code composition / compound components
 - I didn't use a css in js/ts lib like emotion, because the setup with the next 13 app dir was an overkill,
   but I was still able to achive some of the advantages of using it like scoped styles, dynamic stying, elimination of className collisions with the cva and
@@ -12,7 +13,8 @@
 ## Routes
 - / (homepage)
 - /post/id (single post)
-- /dashboard (dashboard for CRUD operations)
+- /dashboard (admin dashboard for CRUD operations)
+
 
 
 ## Setup Instructions
