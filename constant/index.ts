@@ -1,0 +1,8 @@
+
+
+const PAGINATION_LIMIT = 10
+
+
+const BLOG_CONSTANTS = {PAGINATION_LIMIT}
+
+export default BLOG_CONSTANTS
