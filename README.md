@@ -7,7 +7,7 @@
 - Component code composition / compound components
 - I didn't use a css in js/ts lib like emotion, because the setup with the next 13 app dir was an overkill,
   but I was still able to achive some of the advantages of using it like scoped styles, dynamic stying, elimination of className collisions with the cva and
-  tailwind-merge libraries, which are also more lightweight
+  tailwind-merge libraries, which are also more lightweight. You can find an extensive use of these in the blogCard component
 
 ## Routes
 - / (homepage)
