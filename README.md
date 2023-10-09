@@ -1,4 +1,5 @@
 ## Features
+
 - Global store with zustand
 - Tailwind css for styling
 - React Query for data fetching
@@ -11,14 +12,15 @@
   tailwind-merge libraries, which are also more lightweight. You can find an extensive use of these in the blogCard component
 
 ## Routes
+
 - / (homepage)
 - /post/id (single post)
 - /dashboard (admin dashboard for CRUD operations)
 
-
-
 ## Setup Instructions
+
 First, Install the dependencies
+
 ```bash
 npm i
 # or
@@ -29,7 +31,7 @@ pnpm i
 bun i
 ```
 
-First, run the development server:
+Secondly, run the development server:
 
 ```bash
 npm run dev

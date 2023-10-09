@@ -34,7 +34,7 @@ const DeletePost = ({ post: item }: IDeletePost) => {
           });
         }
       });
-      toast.success(`New Post Created`);
+      toast.success(`Post Deleted`);
     },
     onError: (err) => {
       processError(err);
